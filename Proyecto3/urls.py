@@ -23,5 +23,5 @@ from Proyecto3.views import saludo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("saludoURL/", saludo),
+    path("", saludo),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
